@@ -33,3 +33,10 @@ function checkInBox(array, n) {
   }
   return true  
 }
+
+module.exports = {
+  checkNum,
+  checkInRow,
+  checkInColumn,
+  checkInBox
+}
