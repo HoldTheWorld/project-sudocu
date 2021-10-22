@@ -1,5 +1,5 @@
 {
-  "name": "project-sudoku",
+  "name": "project-sudocu",
   "version": "1.0.0",
   "description": "## Введение",
   "main": "runner.js",
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/HoldTheWorld/project-sudocu.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
