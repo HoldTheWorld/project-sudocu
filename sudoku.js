@@ -3,6 +3,8 @@
 // something representing a board after
 // your solver has tried to solve it.
 // How you represent your board is up to you!
+
+
 function solve(boardString) {
 
 }
@@ -28,7 +30,7 @@ function prettyBoard(board) {
 
 // Exports all the functions to use them in another file.
 module.exports = {
-	solve: solve,
-	isSolved: isSolved,
-	prettyBoard: prettyBoard
+  solve: solve,
+  isSolved: isSolved,
+  prettyBoard: prettyBoard
 }
