@@ -2,8 +2,12 @@
 // you see in the puzzle file. Returns
 // something representing a board after
 // your solver has tried to solve it.
+
+const { solution } = require("./itteratePuzzle");
+
 // How you represent your board is up to you!
 function solve(boardString) {
+
 
 }
 
@@ -23,7 +27,7 @@ function isSolved(board) {
 // The input board will be in whatever
 // form `solve` returns.
 function prettyBoard(board) {
-
+console.table(board);
 }
 
 // Exports all the functions to use them in another file.
