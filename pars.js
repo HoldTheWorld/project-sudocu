@@ -7,3 +7,9 @@ const board = []
 for (let i = 0; i < string.length; i += 9) {
   board.push(string.slice(i, i + 9).split('').map(Number))
 }
+
+console.table(board)
+
+module.exports = {
+  board,
+}
