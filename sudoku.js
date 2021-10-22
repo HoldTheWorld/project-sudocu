@@ -8,6 +8,12 @@ const { solution } = require("./itteratePuzzle");
 // How you represent your board is up to you!
 const { replacer } = require('./pars.js')
 const { replaceNumber } = require('./replaceNum')
+const {
+  checkNum,
+  checkInRow,
+  checkInColumn,
+  checkInBox
+} = require('./unikNumber')
 
 function solve(boardString) {
   replacer(boardString)
