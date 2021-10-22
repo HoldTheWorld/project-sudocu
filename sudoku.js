@@ -3,10 +3,11 @@
 // something representing a board after
 // your solver has tried to solve it.
 // How you represent your board is up to you!
-
+const { replacer } = require('./pars.js')
+const { replaceNumber } = require('./replaceNum')
 
 function solve(boardString) {
-
+  replacer(boardString)
 }
 
 

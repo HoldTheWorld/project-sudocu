@@ -5,5 +5,6 @@ const replaceNumber = (arr, num, r, c) => {
   return arr
 }
 
-
-
+module.exports = {
+  replaceNumber,
+}
